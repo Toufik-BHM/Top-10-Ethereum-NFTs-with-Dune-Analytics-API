@@ -53,8 +53,9 @@ Once you have installed the above dependencies and obtained your Dune API key, y
 ### Visualizations
 - The script uses Seaborn to create two visualizations:
   1. A horizontal bar plot showing the top 10 NFT collections by USD volume.
+  ![Top 10 NFT Collections by USD Volume](<Top 10 NFT Collections by USD Volume.png>)
   2. A horizontal bar plot showing the top 10 NFT collections by ETH volume.
-
+  ![Top 10 NFT Collections by ETH Volume](<Top 10 NFT Collections by ETH Volume.png>)
 ## Running the Script
 - To run the script, execute it using a Python interpreter. Follow the prompts to input the start and end dates for the query.
 - Ensure that the required libraries (`dune_client`, `dotenv`, `seaborn`, `matplotlib`) are installed in your Python environment.
