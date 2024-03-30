@@ -1,6 +1,37 @@
-# Explanation of Script
+# Top 10 Ethereum NFTs with Dune Analytics API
 
-This script integrates with the Dune Analytics API to retrieve data about the top 10 NFT collections by volume within a specified date range. It prompts the user to input the start and end dates for the query, loads the DUNE API key from a `.env` file, and runs the query using the `dune_client` library. It then displays the results DataFrame and creates visualizations using Seaborn for better data representation.
+This python script integrates with the Dune Analytics API to retrieve data about the top 10 NFT collections by volume within a specified date range. It prompts the user to input the start and end dates for the query, loads the DUNE API key from a `.env` file, and runs the query using the `dune_client` library. It then displays the results DataFrame and creates visualizations using Seaborn for better data representation.
+
+You can find the sql query that this script runs in `query_sql` file.
+
+## Dependencies
+
+To run the script `script.py`, you need to install the following dependencies:
+
+### Python Packages
+
+- **dune-client**: A Python client library for interacting with the Dune Analytics API.
+  - Installation: `pip install dune-client`
+
+- **dotenv**: Loads environment variables from a `.env` file.
+  - Installation: `pip install python-dotenv`
+
+- **seaborn**: Python visualization library based on matplotlib.
+  - Installation: `pip install seaborn`
+
+- **matplotlib**: Python plotting library.
+  - Installation: `pip install matplotlib`
+
+- **pandas**: Data manipulation and analysis library.
+  - Installation: `pip install pandas`
+
+### Additional Requirements
+
+- **Dune API Key**: You need to obtain an API key from Dune Analytics and store it in `Dune API Key/dune-api-key.env` file.
+
+Once you have installed the above dependencies and obtained your Dune API key, you can run the script successfully.
+
+
 
 ## Components of the Script
 
