@@ -2,11 +2,11 @@
 
 This python script integrates with the Dune Analytics API to retrieve data about the top 10 NFT collections by volume within a specified date range. It prompts the user to input the start and end dates for the query, loads the DUNE API key from a `.env` file, and runs the query using the `dune_client` library. It then displays the results DataFrame and creates visualizations using Seaborn for better data representation.
 
-You can find the sql query that this script runs in `SQL QUERY/query_sql` file.
+You can find the sql query that this script runs in `sql query/query_sql.sql` file.
 
 ## Dependencies
 
-To run the script `script.py`, you need to install the following dependencies:
+To run the script `src/script.py`, you need to install the following dependencies:
 
 ### Python Packages
 
@@ -27,7 +27,7 @@ To run the script `script.py`, you need to install the following dependencies:
 
 ### Additional Requirements
 
-- **Dune API Key**: You need to obtain an API key from Dune Analytics and store it in `Dune API Key/dune-api-key.env` file.
+- **Dune API Key**: You need to obtain an API key from Dune Analytics and store it in `dune api key/dune-api-key.env` file.
 
 Once you have installed the above dependencies and obtained your Dune API key, you can run the script successfully.
 
@@ -53,9 +53,10 @@ Once you have installed the above dependencies and obtained your Dune API key, y
 ### Visualizations
 - The script uses Seaborn to create two visualizations:
   1. A horizontal bar plot showing the top 10 NFT collections by USD volume.
-  ![Top 10 NFT Collections by USD Volume](<Top 10 NFT Collections by USD Volume.png>)
+  ![Top 10 NFT Collections by USD Volume](<images/Top 10 NFT Collections by USD Volume.png>)
   2. A horizontal bar plot showing the top 10 NFT collections by ETH volume.
-  ![Top 10 NFT Collections by ETH Volume](<Top 10 NFT Collections by ETH Volume.png>)
+  ![Top 10 NFT Collections by ETH Volume](<images/Top 10 NFT Collections by ETH Volume.png>)
 ## Running the Script
 - To run the script, execute it using a Python interpreter. Follow the prompts to input the start and end dates for the query.
 - Ensure that the required libraries (`dune_client`, `dotenv`, `seaborn`, `matplotlib`) are installed in your Python environment.
+- The result of the DUNE query is saved into a csv file in `results/results.csv`.
