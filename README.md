@@ -4,7 +4,7 @@ This python script integrates with the Dune Analytics API to retrieve data about
 
 You can find the sql query that this script runs in `SQL QUERY/query_sql.sql` file.
 
-The flowchart below delineates the steps of the Python script that extracts and visualizes Ethereum NFT data from Dune Analytics, from loading the API key to plotting the trade volumes.
+The flowchart below outlines the process of the Python script designed to retrieve and display Ethereum NFT data from Dune, starting from loading the API key to graphing the trading volumes.
 <p align="center">
   <img src="https://github.com/Toufik-BHM/Top-10-Ethereum-NFTs-with-Dune-Analytics-API/assets/157906071/ef2ece8f-de53-4761-af12-dcc31274d430" alt="Flowchart Description" width="600"/>
 </p>
